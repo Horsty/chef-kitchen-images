@@ -3,7 +3,7 @@ ENV LC_ALL=C
 ENV LANG=C
 ENV LANGUAGE=C
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update ;\
-    apt-get upgrade -y
-    apt-get install -y build-essentail
+RUN apt-get update
+RUN apt-get upgrade -y
+RUN apt-get install -y build-essential
 
